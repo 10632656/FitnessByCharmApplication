@@ -6,7 +6,19 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: aqua;}
 body .header{
+    position:fixed;
     display:flex;
+    width: 100%;
     flex-direction: row;
     flex-grow: 1;
+}
+
+body.saved-items{
+    direction: rtl ;
+}
+body.cart{
+    direction: rtl ;
+}
+body.settings{
+    direction: rtl ;
 }
