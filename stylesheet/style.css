@@ -22,25 +22,35 @@ body{
 .saved-items{
     direction: rtl ;
     width: 100px;
+    border: 10px;
 }
 .cart{
     direction: rtl ;
     width: 100px;
+    border: 10px;
 }
 .settings{
     direction: rtl ;
     width: 100px;
+    border: 10px;
 }
 .main{
     position: fixed;
-    background-color: hotpink;
+    background-color: rgb(245, 235, 240);
     width: 100%;
     height: auto;
 }
 .footer{
-    position: fixed;
+    position:absolute;
     bottom: 0;
-    background-color: rgb(151, 35, 35);
+    background-color: rgb(111, 102, 102);
     height: 20%;
     width: 100%;
+}
+
+.banner{
+    align:"center";
+    border: 10px;
+    margin: 10px;
+    
 }
