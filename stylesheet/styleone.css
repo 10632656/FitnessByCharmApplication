@@ -3,6 +3,16 @@
     padding:0;
 }
 
+.logo{
+
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;}
+
+.logo img{
+    
+}
 .navibar{
 
     display: flex
@@ -27,4 +37,5 @@
   
     background-color:rgb(217, 255, 127);
     width:50%;
+    text-align: right;
 }
