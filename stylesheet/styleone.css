@@ -11,7 +11,9 @@
     align-items: center;}
 
 .logo img{
-    
+    width:58%;
+    border:3px solid white ;
+    border-radius: 50px;
 }
 .navibar{
 
