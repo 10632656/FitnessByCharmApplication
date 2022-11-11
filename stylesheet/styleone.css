@@ -2,3 +2,29 @@
     margin: 0;
     padding:0;
 }
+
+.navibar{
+
+    display: flex
+}
+
+.navi-list{
+    
+   width:50%;
+   background-color:aquamarine;
+}
+
+.navi-list li{
+    
+}
+
+.navi-list li a{
+    
+}
+
+.rightnavi{
+
+  
+    background-color:rgb(217, 255, 127);
+    width:50%;
+}
