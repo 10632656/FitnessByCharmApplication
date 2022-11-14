@@ -79,3 +79,16 @@
     color: rgb(208, 245, 45);
     font-family: 'Times New Roman', Times, serif;
 }
+
+.searchbutton{
+    
+    background-color: transparent; 
+    background-repeat: no-repeat;  
+    background-position: 0px 0px;  
+    border: none;           
+    cursor: pointer;        
+    height: 50px;           
+    width: 50px;
+    padding-left: 16px;     
+    vertical-align: middle;   
+}
