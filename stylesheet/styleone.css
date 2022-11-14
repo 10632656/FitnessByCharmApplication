@@ -92,3 +92,193 @@
     padding-left: 16px;     
     vertical-align: middle;   
 }
+
+/* slider section */
+.slider_section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(6, 10, 54, 0.8)), to(rgba(6, 10, 54, 0.8))), url(images/Logo2.jpg);
+    background-image: linear-gradient(to right, rgba(6, 10, 54, 0.8), rgba(6, 10, 54, 0.8)), url(images/Logo1.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  .slider_section #customCarousel1 {
+    width: 100%;
+    position: unset;
+  }
+  
+  .slider_section .detail_box {
+    color: #ffffff;
+  }
+  
+  .slider_section .detail_box h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .slider_section .detail_box a {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #1376b1;
+    color: #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 1px solid #1376b1;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-top: 35px;
+  }
+  
+  .slider_section .detail_box a:hover {
+    background-color: transparent;
+    color: #1376b1;
+  }
+  
+  .slider_section .carousel-control-prev,
+  .slider_section .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    font-size: 22px;
+    top: 50%;
+    color: #000000;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  
+  .slider_section .carousel-control-prev:hover,
+  .slider_section .carousel-control-next:hover {
+    background-color: #1376b1;
+    color: #ffffff;
+  }
+  
+  .slider_section .carousel-control-prev {
+    left: 10%;
+  }
+  
+  .slider_section .carousel-control-next {
+    right: 10%;
+  }
+
+
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    animation: animate 10s linear infinite;
+  }
+  .slider .slide {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+  }
+  .slider .slide .caption {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  .slider .slide .caption h2 {
+    margin: 0 0 20;
+    padding: 0;
+    color: #fff;
+    font-size: 48px;
+    transition: 0.5s;
+  }
+  .slider .slide .caption p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  @media (max-width: 768px) {
+    .slider .slide .caption {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      padding: 20px;
+    }
+    .slider .slide .caption h2 {
+      margin: 0 0 10;
+      font-size: 30px;
+    }
+    .slider .slide .caption p {
+      font-size: 16px;
+    }
+  }
+
+  @keyframes animate {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+  }
+
+  
+  .container .slider .slide.slide1 {
+    background: url(images/Logo1.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container .slider .slide.slide2 {
+    background: url(images/Logo2.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container .slider .slide.slide3 {
+    background: url(images/Logo3.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container .slider .slide.slide4 {
+    background: url(images/Logo4.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
