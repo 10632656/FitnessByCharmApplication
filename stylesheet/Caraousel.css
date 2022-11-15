@@ -11,13 +11,13 @@ https://flickity.metafizzy.co
   .flickity-viewport {
     overflow: hidden;
     position: relative;
-    height: 100%;
+    height: 20%;
   }
   
   .flickity-slider {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 50%;
   }
   
   /* draggable */
@@ -45,7 +45,7 @@ https://flickity.metafizzy.co
   
   .flickity-button {
     position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
+    background: hsla(0, 0%, 50%, 0.75);
     border: none;
     color: #333;
   }
