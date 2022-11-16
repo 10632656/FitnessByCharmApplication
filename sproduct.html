@@ -20,8 +20,6 @@
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a class="active" href="shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
                 <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
@@ -56,7 +54,7 @@
             <h4>GYM</h4>
             <h2>100€</h2>
             <input type="number" value="1">
-            <button class="normal">Reserve</button>
+            <button class="normal" type="submit" onclick="openForm()">Reserve</button>
             <h4>Product Details</h4>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -64,33 +62,41 @@
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            <script src="reserve.js"></script>
         </div>
     </section>
 
+
+    <!-- Reserve Form-->
+    <div class="formContainer">
+        <form action="reserve.js" method="post" id="reserve">
+            <h1>Reserve your product</h1>
+                <div class="details">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your fullname" />
+                    <small></small>
+                </div>
+                <div class="details">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email address" />
+                    <small></small>
+                </div>
+                
+                <div class="details">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" placeholder="Enter your address" />
+                    <small></small>
+                </div>
+
+            <button type="submit" onclick="sendAlert()">Submit</button>
+            <script src="reserve.js"></script>
+        </form>
+    </div>
+   
     
-    <!--Taking refernce from javascript tutorial  -->
-    <form action="/reserve" method="post" id="reserve"> 
-        <h1>Reserve your product</h1>
-        <div class="details">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your fullname" />
-            <small></small>
-        </div>
-        <div class="details">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Enter your email address" />
-            <small></small>
-        </div>
-        <div class="details">
-            <label for="address">Address:</label>
-            <input type="text" id="address" name="address" placeholder="Enter your address" />
-            <small></small>
-        </div>
 
-        <button type="submit">Submit</button>
-        <script src="reserve.js"></script>
 
-    </form>
+   
 
     <section id="product1" class="section-p1">
         
