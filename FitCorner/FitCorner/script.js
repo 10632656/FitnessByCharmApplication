@@ -34,7 +34,7 @@ http.onload = function(){
             </div>
          `;
       }
-      document.querySelector(".products").innerHTML = output;
+      //document.querySelector(".products").innerHTML = output;
    }
 
    
