@@ -85,7 +85,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #199c8f;
+    background: #19229c;
     position: sticky;
     top: 0;
     left: 0;
@@ -93,10 +93,18 @@ body {
     box-shadow: 0 5px 15px rgba(186, 54, 54, 0.06);
 }
 
+#logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #navbar {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #navbar li {
