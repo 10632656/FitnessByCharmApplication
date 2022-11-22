@@ -8,7 +8,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"
+        "img4" : "img/products/d3.jpg",
+        "video1" : "https://www.youtube.com/watch?v=WDNQk_vJ2xE"
     },
     {
         "id" : "2",
@@ -19,7 +20,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg" 
+        "img4" : "img/products/d3.jpg", 
+        "video1" : "https://www.youtube.com/watch?v=prAKEcaMbRo"
     },
     {
         "id" : "3",
@@ -30,7 +32,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"
+        "img4" : "img/products/d3.jpg",
+        "video1" : "https://www.youtube.com/watch?v=Xi7h7OzrYiI"
     },
     {
         "id" : "4",
@@ -41,7 +44,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"    
+        "img4" : "img/products/d3.jpg",
+        "video1" : "https://www.youtube.com/watch?v=UUKzjTO1FXk"    
     },
     {
         "id" : "5",
@@ -52,7 +56,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"
+        "img4" : "img/products/d3.jpg",
+        "video1" : "https://www.youtube.com/watch?v=zrF54N_VNqc"
 
     },
     {
@@ -64,7 +69,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"
+        "img4" : "img/products/d3.jpg",
+        "video1" : ""
     
     },
     {
@@ -76,7 +82,8 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"
+        "img4" : "img/products/d3.jpg",
+        "video1" : "https://www.youtube.com/watch?v=1F60Z4GXTtM"
         
     },
     {
@@ -88,6 +95,7 @@
         "img1" : "img/products/f1.jpg",
         "img2" : "img/products/d1.jpg",
         "img3" :"img/products/d2.jpg",
-        "img4" : "img/products/d3.jpg"
+        "img4" : "img/products/d3.jpg",
+        "video1" : "https://www.youtube.com/watch?v=c_LyMx6SRQw"
     }
 ]
