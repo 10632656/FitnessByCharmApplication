@@ -39,3 +39,22 @@ http.onload = function(){
 
    
 }
+
+function validateform() {
+   if (!ValidateEmail()){
+      alert('Please enter valid mail');
+    }    
+    else{
+         alert("Thank you! Your item has been reserved.")
+        }
+}
+function ValidateEmail() {
+   var vmail = $('#E-mail').val();   
+   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+   if(vmail.match(mailformat)){
+     return true;
+   }
+   else{
+     return false;
+   }
+}
