@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech2etc Ecommerce Tutorial</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
@@ -60,28 +60,24 @@
               <option>Large</option>
           </select>
             <input type="number" value="1">
-            <button class="normal">Reserve</button>
+            <a href="#" id= "btn" class="normal">Reserve</a>
             <h4>Product Details</h4>
             <span>Hex Dumbell Round Head Rubber Dumbbells offers a protective outer coating that protects not only the dumbbell itself, but also the dumbbell storage rack and everything in the surrounding lifting environment such as flooring and weight benches.</span>
         </div>
     </section>
 
-    <div class="modal">
-        <div class="modal-content">
+    <div class="mdl">
+        <div class="mdl-content">
             <div class="clos">+</div>
-            <img src="logo.png" alt="">
             <form action="">
                 <input type="text" placeholder="Full Name">
-                <input type="text" placeholder="E-mail">
+                <input id="E-mail" type="text" placeholder="E-mail">
                 <input type="text" placeholder="Adress">
-                <input type="text" placeholder="Phone number">
-                <a href="" class="btn">SUBMIT</a>
+                <button onclick="validateform()" class="btn">SUBMIT</a>
+                
             </form>
         </div>
     </div>
-
-    
-
 
     <footer class="section-p1">
         <div class="col">
@@ -115,7 +111,7 @@
         </div>
 
         <div class="copyright">
-            <p>Copyright Reserved @</p>
+            <p>Made with love/p>
         </div>
     </footer>
 
@@ -135,8 +131,16 @@
         smallimg[3].onclick = function() {
             MainImg.src = smallimg[3].src;
         }
-    </script>
 
+            document.getElementById('btn').addEventListener('click',function() {
+            $(".mdl").css("display","flex")
+            })
+        
+            document.querySelector('clos').addEventListener('click',function(){
+            $(".mdl").css("display","none")
+            })
+        
+    </script>
 
     <script src="script.js"></script>
 </body>
